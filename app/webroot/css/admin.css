@@ -1,0 +1,33 @@
+a.link-acceso {
+	color : #ffffff;
+}
+
+div.acciones {
+	float: left;
+	width: 100%;
+	padding: 10px 1.5%;
+}
+
+div.acciones ul {
+	margin: 0;
+	padding: 0;
+}
+
+div.acciones li {
+	list-style-type: none;
+	margin: 0 0 0.5em;
+	padding: 3px;
+	white-space: nowrap;
+}
+
+input[type="submit"], div.acciones ul li a, td.acciones a {
+	-moz-border-radius:8px 8px 8px 8px;
+	background:-moz-linear-gradient(center top , #F1F1D4, #E6E49F) repeat scroll 0 0 #E6E49F;
+	border:1px solid #AAAC62;
+	color:#333333;
+	font-weight:normal;
+	min-width:0;
+	padding:4px 8px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #FFFFFF;
+}

@@ -1,0 +1,119 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+# Esteban Javier Zeller <tranfuga25s@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2010-08-10 01:05-0300\n"
+"PO-Revision-Date: 2010-08-10 11:14-0300\n"
+"Last-Translator: Esteban Javier Zeller <tranfuga25s@gmail.com>\n"
+"Language-Team: Spanish <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.0\n"
+
+#: /views/colores/admin_add.ctp:4
+msgid "Admin Add Colore"
+msgstr "Agregar Color"
+
+#: /views/colores/admin_add.ctp:9
+#: /views/colores/admin_edit.ctp:10
+msgid "Submit"
+msgstr "Guardar"
+
+#: /views/colores/admin_add.ctp:12
+#: /views/colores/admin_edit.ctp:13
+#: /views/colores/admin_index.ctp:9;47
+#: /views/colores/admin_view.ctp:27
+msgid "Actions"
+msgstr "Acciones"
+
+#: /views/colores/admin_add.ctp:15
+#: /views/colores/admin_edit.ctp:17
+#: /views/colores/admin_view.ctp:31
+msgid "List Colores"
+msgstr "Listar Colores Disponibles"
+
+#: /views/colores/admin_edit.ctp:4
+msgid "Admin Edit Colore"
+msgstr "Editar Color"
+
+#: /views/colores/admin_edit.ctp:16
+#: /views/colores/admin_index.ctp:27
+msgid "Delete"
+msgstr "Eliminar"
+
+#: /views/colores/admin_edit.ctp:16
+#: /views/colores/admin_index.ctp:27
+#: /views/colores/admin_view.ctp:30
+msgid "Are you sure you want to delete # %s?"
+msgstr "Esta seguro que desea eliminar el item #%s?"
+
+#: /views/colores/admin_index.ctp:2
+msgid "Colores"
+msgstr "Colores"
+
+#: /views/colores/admin_index.ctp:25
+msgid "View"
+msgstr "Ver"
+
+#: /views/colores/admin_index.ctp:26
+msgid "Edit"
+msgstr "Editar"
+
+#: /views/colores/admin_index.ctp:35
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr "Pagina %page% de %pages%, mostrando %current% de %count%, desde %start% al %end%"
+
+#: /views/colores/admin_index.ctp:40
+msgid "previous"
+msgstr "anterior"
+
+#: /views/colores/admin_index.ctp:43
+msgid "next"
+msgstr "siguiente"
+
+#: /views/colores/admin_index.ctp:49
+msgid "New Color"
+msgstr "Nuevo Color"
+
+#: /views/colores/admin_view.ctp:2
+msgid "Colore"
+msgstr "Color"
+
+#: /views/colores/admin_view.ctp:4
+msgid "Id Color"
+msgstr "#Color"
+
+#: /views/colores/admin_view.ctp:9
+msgid "Nombre"
+msgstr "Nombre"
+
+#: /views/colores/admin_view.ctp:14
+msgid "Created"
+msgstr "Creado"
+
+#: /views/colores/admin_view.ctp:19
+msgid "Modified"
+msgstr "Modificado"
+
+#: /views/colores/admin_view.ctp:29
+msgid "Edit Colore"
+msgstr "Editar Color"
+
+#: /views/colores/admin_view.ctp:30
+msgid "Delete Colore"
+msgstr "Eliminar Color"
+
+#: /views/colores/admin_view.ctp:32
+msgid "New Colore"
+msgstr "Nuevo Color"
+
+#: /webroot/test.php:88
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
+

@@ -1,0 +1,1 @@
+<?php echo $this->Html->image( $producto['Producto']['miniatura_vista'] ); ?>
