@@ -1,3 +1,4 @@
+<br />
 <div class="formcontacto">
 <?php
 echo $this->Form->create( 'Contacto', array( 'controller' => 'contactos', 'action' => 'enviar' ) );
