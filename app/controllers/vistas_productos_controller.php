@@ -1,91 +1,165 @@
-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
+<?php
+class VistasProductosController extends AppController {
+	var $name = 'VistasProductos';
+	var $helpers = array( 'Subidor', 'Javascript' );
+	var $scaffold = 'admin';
+
+	function admin_index( $id_producto = null ) {
+		$this->layout = 'admin';
+		if( $id_producto == null ) {
+			$this->Session->setFlash( 'Por favor, ingrese mediante un producto a esta seccion' );
+			$this->redirect( array( 'controller' => 'productos', 'action' => 'index' ) );
+		}
+		$this->loadModel( 'Producto' );
+		$this->Producto->unbindModel( array( 'hasAndBelongsToMany' => array( 'Colores' ) ) );
+		$this->Producto->id = $id_producto;
+		$this->set( 'producto', $this->Producto->read() );
+	}
+
+	function admin_envio() {
+		// El archivo se subio bien
+		//pr( $this->data );
+		if( $this->data['VistasProductos']['archivo']['error'] == 0 ) {
+			// Archivo subido correctamente
+			// Verifico la extension
+			$extensiones_permitidas = array( 'image/jpeg', 'image/png', 'image/gif', 'image/bmp', 'image/jpeg', 'image/pjpeg', 'image/x-png' );
+			if( in_array( $this->data['VistasProductos']['archivo']['type'], $extensiones_permitidas ) ) {
+				// Lo muevo a su ubicacion
+				// veo si existe el directorio
+				if( !file_exists( WWW_ROOT. 'img' . DS .'vistas'. DS . $this->data['VistasProductos']['id_producto'] ) ) {
+					if( !mkdir(WWW_ROOT. 'img' . DS .'vistas'. DS . $this->data['VistasProductos']['id_producto'] ) ) {
+						echo "no se pudo crear el directorio ".WWW_ROOT. 'img' . DS .'vistas'. DS . $this->data['VistasProductos']['id_producto']. ". Chequee los permisos";
+						die();
+					}
+				}
+				$ubicacion = 'img' . DS . 'vistas' . DS . $this->data['VistasProductos']['id_producto'] . DS . $this->data['VistasProductos']['archivo']['name'];
+				$ruta = WWW_ROOT . $ubicacion;
+				if( rename( $this->data['VistasProductos']['archivo']['tmp_name'], $ruta ) ) {
+					// busco el mayor orden
+					if( !chmod( $ruta, 0755 ) ) {
+						echo "No se pudo cambiar los permisos del archivo";
+					}
+					$orden = $this->VistasProducto->ultimoOrden( $this->data['VistasProductos']['id_producto'] );
+					$dato = array( 'VistasProducto' =>
+							array(
+								'ruta' => $ubicacion,
+								'publicado' => true,
+								'nombre' => $this->data['VistasProductos']['archivo']['name'],
+								'producto_id' => $this->data['VistasProductos']['id_producto'],
+								'orden' => $orden+1
+							)
+						);
+					if ( $this->VistasProducto->save( $dato ) ){
+						$this->log( "Archivo agregado correctamente a la base de datos" );
+						// retorno el contenido para poner en la vista
+						$this->layout = '';
+						$this->set( 'vista', $this->VistasProducto->read() );
+						$this->render( 'item' );
+					} else {
+						$this->Session->setFlash( __( 'Error al argregar el archivo a la base de datos' ) );
+					}
+				} else {
+					echo "Error al mover el archivo";
+				}
+			} else {
+				echo "El tipo de archivo ".$this->data['VistasProductos']['archivo']['type']." no esta permitido";
+			}
+		} else {
+			echo "No se pudo recibir correctamente el archivo";
+		}
+		$this->autoRender = false;
+	}
+
+	function admin_envio_miniatura() {
+		// El archivo se subio bien
+		//pr( $this->data );
+		if( $this->data['VistasProductos']['archivo']['error'] == 0 ) {
+			// Archivo subido correctamente
+			// Verifico la extension
+			$extensiones_permitidas = array( 'image/jpeg', 'image/png', 'image/gif', 'image/bmp', 'image/jpeg', 'image/pjpeg' );
+			if( in_array( $this->data['VistasProductos']['archivo']['type'], $extensiones_permitidas ) ) {
+				// Lo muevo a su ubicacion
+				$ubicacion = 'img' . DS .'vistas'.DS.$this->params['form']['id_producto'].DS;
+				$ruta = WWW_ROOT . $ubicacion;
+				if( rename( $this->data['VistasProductos']['archivo']['tmp_name'], $ruta ) ) {
+					if( !chmod( $ruta, 0755 ) ) {
+						echo "No se pudo cambiar los permisos del archivo";
+					}
+					$dato = array( 'VistasProducto' =>
+							array(
+								'miniatura' => $ubicacion,
+								'id_vista' => $this->params['form']['id_vista']
+							)
+						);
+					if ( $this->VistasProducto->save( $dato ) ){
+						$this->log( "Archivo agregado correctamente a la base de datos" );
+						// retorno el contenido para poner en la vista
+						$this->layout = '';
+						$this->set( 'vista', $this->VistasProducto->read() );
+						$this->render( 'miniatura' );
+					} else {
+						$this->Session->setFlash( __( 'Error al argregar el archivo a la base de datos' ) );
+					}
+				} else {
+					echo "Error al mover el archivo";
+				}
+			} else {
+				echo "El tipo de archivo ".$this->data['VistasProductos']['archivo']['type']." no esta permitido";
+				pr( $extensiones_permitidas );
+			}
+		} else {
+			echo "No se pudo recibir correctamente el archivo";
+		}
+		//$this->autoRender = false;
+	}
+
+	function admin_eliminar( $id_vista = null, $id_producto = null ) {
+		$this->layout = 'admin';
+		if( $this->VistasProducto->delete( $id_vista ) ) {
+			$this->Session->setFlash( "Vista eliminada correctamente" );
+		} else {
+			$this->Session->setFlash( "Error al eliminar la vista" );
+		}
+		$this->redirect( array( 'action' => 'index', $id_producto ) );
+	}
+
+	function admin_publicar( $id_vista = null, $id_producto = null ) {
+		$this->VistasProducto->id = $id_vista;
+		$this->VistasProducto->set( 'publicado', true );
+		if( $this->VistasProducto->save() ) {
+			$this->Session->setFlash( "Vista publicada correctamente" );
+		} else {
+			$this->Session->setFlash( "Error al publicar la vista" );
+		}
+		$this->redirect( array( 'action' => 'index', $id_producto ) );
+	}
+
+	function admin_despublicar( $id_vista = null, $id_producto = null ) {
+		$this->VistasProducto->id = $id_vista;
+		$this->VistasProducto->set( 'publicado', false );
+		if( $this->VistasProducto->save() ) {
+			$this->Session->setFlash( "Vista despublicada correctamente" );
+		} else {
+			$this->Session->setFlash( "Error al despublicar la vista" );
+		}
+		$this->redirect( array( 'action' => 'index', $id_producto ) );
+	}
+
+	function admin_cambiar_minitura( $id_vista ) {
+		$this->layout = 'admin';
+		$this->VistasProducto->id = $id_vista;
+		$this->set( 'vista', $this->VistasProducto->read() );
+	}
+
+	function admin_antes( $id_vista = null, $id_producto = null ) {
+		$this->VistasProducto->adelantar( $id_vista, $id_producto );
+		$this->redirect( array( 'action' => 'index', $id_producto ) );
+	}
+
+	function admin_despues( $id_vista = null, $id_producto = null ) {
+		$this->VistasProducto->atrasar( $id_vista, $id_producto );
+		$this->redirect( array( 'action' => 'index', $id_producto ) );
+	}
+
+}
+?>

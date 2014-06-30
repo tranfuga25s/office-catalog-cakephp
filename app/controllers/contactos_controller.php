@@ -32,7 +32,7 @@ class ContactosController extends AppController {
 		if( $datos['donde'] == 1 ) {
 			$this->Email->to = 'Info LaOficina Muebleria <info@laoficinamuebles.com.ar>';
 		} else if( $datos['donde'] == 2 ) {
-			$this->Email->to = 'Administracion La Oficina Muebleria <admn@laoficinamuebles.com.ar>';
+			$this->Email->to = 'Administracion La Oficina Muebleria <administracion@laoficinamuebles.com.ar>';
 		} else {
 			$this->Email->to = 'Info LaOficina Muebleria <info@laoficinamuebles.com.ar>';
 		}

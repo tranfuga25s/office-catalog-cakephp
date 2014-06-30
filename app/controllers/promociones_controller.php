@@ -2,7 +2,7 @@
 class PromocionesController extends AppController {
 	var $name = 'Promociones';
 	var $scaffold = 'admin';
-	var $helpers = array( 'Subidor' );
+	var $helpers = array( 'SwfUpload' );
 	var $components = array( 'SwfUpload' );
 
 	function admin_index() {
@@ -13,24 +13,7 @@ class PromocionesController extends AppController {
 	function admin_add() {
 		$this->layout = 'admin';
 		if( !empty( $this->data ) ) {
-			// Muevo el archivo desde el temp a su lugar
-			if( $this->data['Promocion']['ruta']['error'] == 0 ) {
-				$destino = 'img' . DS . 'promociones' . DS;
-				if( !move_uploaded_file( $this->data['Promocion']['ruta']['tmp_name'], $destino . $this->data['Promocion']['ruta']['name'] ) ) {
-					$this->Session->setFlash( 'Hubo un error al intentar copiar el archivo a su ubicación final.' );
-					$this->redirect( array( 'action' => 'index' ) );
-				}
-				$this->data['Promocion']['ruta'] = $destino . $this->data['Promocion']['ruta']['name'];
-			} else {
-				$this->Session->setFlash( 'hubo un error al intentar subir el archivo' );
-				$this->redirect( array( 'action' => 'index' ) );
-			}
-			if( $this->Promocion->save( $this->data ) ) {
-				$this->Session->setFlash( 'Promoción agregada correctamente' );
-				$this->redirect( array( 'action' => 'index' ) );
-			} else {
-				$this->Session->setFlash( 'No se pudo guardar la promoción' );
-			}
+			$this->redirect( array( 'action' => 'index' ) );
 		}
 	}
 
@@ -38,6 +21,49 @@ class PromocionesController extends AppController {
 		$this->layout = 'admin';
 		$this->Promocion->id = $id_promocion;
 		$this->set( 'promocion', $this->Promocion->read() );
+	}
+
+	function admin_edit( $id_promocion = null ) {
+		$this->layout = 'admin';
+		if( !empty( $this->data )) {
+			if( $this->Promocion->save( $this->data ) ) {
+				$this->Session->setFlash( 'Datos guardados correctamente' );
+				$this->redirect( array( 'action' => 'index' ) );
+			}
+		}
+		$this->Promocion->id = $id_promocion;
+		$this->data = $this->Promocion->read();
+	}
+
+	function admin_envio() {
+		// Rutas Necesarias
+		$this->SwfUpload->uploadpath = 'img'.DS.'promociones'.DS;
+		$this->SwfUpload->webpath = '/img/promociones/';
+		$this->SwfUpload->overwrite = true;  //by default, SwfUploadComponent does NOT overwrite files
+		if( isset( $this->params['form']['Filedata'] ) ) {
+	               if( $this->SwfUpload->upload() ) {
+				// El archivo se subio bien
+				// busco el mayor orden
+				$dato = array( 'Promocion' =>
+						array(
+							'ruta' => $this->SwfUpload->webpath . $this->SwfUpload->filename,
+							'publicado' => true,
+							'nombre' => $this->SwfUpload->filename
+						)
+					);
+                		if ( $this->Promocion->save( $dato ) ){
+					$this->log( "Archivo agregado correctamente a la base de datos" );
+					$this->autoRender = false;
+                		} else {
+					$this->Session->setFlash( __( 'Error al argregar el archivo a la base de datos' ) );
+					$this->autoRender = false;
+				}
+        		} else {
+				$this->log( 'Error:'.$this->SwfUpload->errorMessage );
+				$this->Session->setFlash($this->SwfUpload->errorMessage);
+				$this->autoRender = false;
+        		}
+		} else { $this->autoRender = false; }
 	}
 
 	function admin_publicar( $id = null ) {
@@ -67,8 +93,7 @@ class PromocionesController extends AppController {
 	}
 
 	function ver() {
-		$dato = $this->Promocion->ultimo();
-		return $dato['Promocion']['ruta'];
+		$this->set( 'datos', $this->Promocion->ultimo() );
 	}
 
 }

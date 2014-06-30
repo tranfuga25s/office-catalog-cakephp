@@ -5,8 +5,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title><?php echo $title_for_layout?> :: La Oficina Amoblamientos S.C.</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <?php echo $html->css( 'general' ); ?>
-  <?php echo $html->css( 'slimbox' ); ?>
+  <?php echo $this->Html->css( 'general' ); ?>
+  <?php echo $this->Html->css( 'slimbox' ); ?>
   <?php echo $javascript->link( 'mootools' ); ?>
   <?php echo $javascript->link( 'slimbox' ); ?>
   <?php echo $javascript->link( 'mootools-more' ); ?>
@@ -14,7 +14,7 @@
 </head>
 <body onload="autoFireLightbox()">
 <div id="contenedor">
-	<div id="barra_marca"><?php echo $this->Html->image( 'logo.png', array( 'class' => 'logo' ) ); ?></div>
+	<div id="barra_marca"><?php echo $html->image( 'logo.png', array( 'class' => 'logo' ) ); ?></div>
 	<div id="menu"><?php echo $this->element( 'menu' ); ?></div>
 	<div id="productos-menu">
 		<div class="flecha-arriba" id="flecha-arriba">&nbsp;</div>

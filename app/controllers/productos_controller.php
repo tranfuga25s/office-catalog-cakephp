@@ -38,7 +38,7 @@ class ProductosController extends AppController {
 		if( !empty( $this->data ) ) {
 			$o = $this->Producto->mayorOrden( $this->data['Producto']['categoria_id'] );
 			$this->data['Producto']['orden'] = $o + 1;
-			//$this->data['Producto']['novedad'] = true;
+			$this->data['Producto']['novedad'] = true;
 			if( $this->Producto->save( $this->data ) ) {
 				$this->Session->setFlash( "Agregado correctamente" );
 				$this->redirect( array( 'action' => 'index' ) );
