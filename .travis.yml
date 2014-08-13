@@ -26,7 +26,6 @@ before_script:
       'prefix' => 'test_'
     );
     }" > ./app/config/database.php
-  - sh -c "mysql < ./app/config/Schema/schema.sql"
   - composer install --dev
   - mkdir -p build/logs
 
