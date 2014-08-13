@@ -28,6 +28,7 @@ before_script:
     }" > ./app/config/database.php
   - composer install --dev
   - mkdir -p build/logs
+  - chmod +x cake/console/cake
 
 script:
   - ./cake/console/cake test app AllTests --stderr --coverage-clover build/logs/clover.xml
