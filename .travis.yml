@@ -31,7 +31,7 @@ before_script:
   - chmod +x cake/console/cake
 
 script:
-  - ./cake/console/cake test app AllTests --stderr --coverage-clover build/logs/clover.xml
+  - ./cake/console/cake testsuite app all --coverage-clover build/logs/clover.xml
 
 after_script:
   - php vendor/bin/coveralls -v
