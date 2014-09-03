@@ -1,6 +1,5 @@
 <?php
 App::uses('Controller', 'Controller');
-
 /**
  * Application Controller
  *
