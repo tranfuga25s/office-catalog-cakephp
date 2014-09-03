@@ -9,6 +9,7 @@ before_script:
   - composer install --dev
   - mkdir -p build/logs
   - chmod +x cake/console/cake
+  - ./app/Console/cake schema create Users.users
 
 script:
     - ./app/Console/cake test app AllTests --stderr --coverage-clover build/logs/clover.xml --include-path vendor/phpunit/phpunit
