@@ -1,6 +1,6 @@
 [submodule "app/Plugin/Users"]
 	path = app/Plugin/Users
-	url = git@github.com:CakeDC/users.git
+	url = https://github.com/CakeDC/users.git
 [submodule "app/Plugin/DebugKit"]
 	path = app/Plugin/DebugKit
-	url = git@github.com:cakephp/debug_kit.git
+	url = https://github.com/cakephp/debug_kit.git
