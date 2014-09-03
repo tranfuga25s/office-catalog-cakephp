@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule    ^$ app/webroot/    [L]
+# Esta regla me permite redireccionar los pedidos swf desde la raiz hasta su directorio en el webroot
+RewriteRule    ^(.+\.swf)$ app/webroot/swf/$1 [L]
+RewriteRule    (.*) app/webroot/$1 [L]
+</IfModule>
