@@ -6,26 +6,6 @@ php:
   - 5.5
 
 before_script:
-  - sh -c "mysql -e 'CREATE DATABASE catalogo;'"
-  - echo "<?php
-    class DATABASE_CONFIG {
-    public \$default = array(
-      'datasource' => 'Database/Mysql',
-      'database' => 'catalogo',
-      'host' => '0.0.0.0',
-      'login' => 'travis',
-      'prefix' => '',
-      'persistent' => false,
-    );
-    public \$test = array(
-      'datasource' => 'Database/Mysql',
-      'database' => 'catalogo',
-      'host' => '0.0.0.0',
-      'login' => 'travis',
-      'persistent' => false,
-      'prefix' => 'test_'
-    );
-    }" > ./app/config/database.php
   - composer install --dev
   - mkdir -p build/logs
   - chmod +x cake/console/cake
